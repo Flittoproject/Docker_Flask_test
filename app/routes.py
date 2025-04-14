@@ -1,5 +1,3 @@
-# app/routes.py
-
 from flask import Blueprint, request, redirect, render_template
 from .models import Applicant, Test
 from .db import db
